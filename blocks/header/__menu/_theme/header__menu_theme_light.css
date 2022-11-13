@@ -1,0 +1,5 @@
+@media screen and (max-width: 992px) {
+  .header__menu_theme_light {
+    background-color: rgb(98%, 97%, 97%, 0.7);
+  }
+}

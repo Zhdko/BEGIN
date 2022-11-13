@@ -1,0 +1,23 @@
+.toggle {
+  width: 48px;
+  height: 25px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: relative;
+  background-color: #CDCDCD;
+  border-radius: 31px;
+  padding: 1px;
+  transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 576px) {
+  .toggle {
+    position: fixed;
+    top: 112px;
+    right: 13px;
+    transform: rotate(-90deg);
+    z-index: 2;
+  }
+}

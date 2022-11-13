@@ -1,0 +1,10 @@
+.header__wriper {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .header__wriper {
+    display: flex;
+    margin-right: auto;
+  }
+}

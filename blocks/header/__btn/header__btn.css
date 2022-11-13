@@ -1,0 +1,13 @@
+.header__btn {
+  font-family: 'Metropolis', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: inherit;
+  transition: color 0.3s linear, font-weight 0.1s linear;
+}
+
+.header__btn:hover {
+  color: #1EE1B3;
+  font-weight: 700;
+}

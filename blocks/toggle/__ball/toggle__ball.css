@@ -1,0 +1,7 @@
+.toggle__ball {
+  width: 23px;
+  height: 23px;
+  background-color: #232427;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}

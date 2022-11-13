@@ -1,0 +1,28 @@
+.header__nav {
+  display: flex;
+  width: 100%;
+  max-width: 1640px;
+  margin: 14.5px 52px;
+  gap: 73px;
+  align-items: center;
+  transition: gap 0.2s ease;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__nav {
+    gap: 53px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header__nav {
+    gap: 44px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .header__nav {
+    margin: 14.5px 22px;
+  }
+}

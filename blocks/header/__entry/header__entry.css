@@ -1,0 +1,10 @@
+.header__entry {
+  display: flex;
+  gap: 27px;
+}
+
+@media screen and (max-width: 576px) {
+  .header__entry {
+    gap: 17px;
+  }
+}
