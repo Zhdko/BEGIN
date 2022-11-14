@@ -1,0 +1,11 @@
+.intro__line {
+  margin-bottom: 22px;
+  animation: fadein 0.3s 0.3s linear 1 forwards;
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .intro__line {
+    margin-bottom: 15px;
+  }
+}

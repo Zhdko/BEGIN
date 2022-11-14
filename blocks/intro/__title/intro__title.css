@@ -1,0 +1,32 @@
+.intro__title {
+  font-family: 'Metropolis';
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  margin: -2px -8px 0 0;
+  animation: fadein 0.5s linear 1 forwards;
+  opacity: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+  .intro__title {
+    font-size: 102px;
+    margin-right: -7px;
+  }
+}
+
+@keyframes fadein{
+  0% {
+    transform: translate(0, 100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

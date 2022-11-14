@@ -1,0 +1,31 @@
+.input {
+  border: 2px solid #000000;
+  border-radius: 3px;
+  background-color: inherit;
+  box-sizing: border-box;
+  flex-grow: 1;
+  font-family: "Metropolis", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #faf8f7;
+  text-align: center;
+}
+
+.input:placeholder-shown {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+  color: #6C6C6C;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input:focus {
+  outline-color: #1EE1B3;
+  border: none;
+}

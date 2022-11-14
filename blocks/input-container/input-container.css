@@ -1,0 +1,16 @@
+.input-container {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  animation: fadein 0.5s 0.3s linear 1 forwards;
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .input-container {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.intro__paragraph {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 430px;
+  margin-bottom: 36px;
+  animation: fadein 0.4s 0.3s linear 1 forwards;
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .intro__paragraph {
+    font-size: 8px;
+  }
+}

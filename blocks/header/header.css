@@ -7,4 +7,5 @@
   opacity: 0.95;
   position: fixed;
   top: 0;
+  transition: background-color 0.2s linear;
 }

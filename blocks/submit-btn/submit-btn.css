@@ -1,0 +1,11 @@
+.submit-btn {
+  padding: 18px 38.5px;
+  background-color: #08070C;
+  font-family: 'Metropolis', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-radius: 3px;
+}

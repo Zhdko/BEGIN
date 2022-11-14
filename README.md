@@ -20,8 +20,8 @@
 
 ### Ссылки
 
-- [Reposotory URL](https://github.com/Zhdko/Begin)
-- [GITpages URL](https://zhdko.github.io/Begin/)
+- [Reposotory URL](https://github.com/Zhdko/BEGIN)
+- [GITpages URL](https://zhdko.github.io/BEGIN/)
 
 ## Мой процесс
 

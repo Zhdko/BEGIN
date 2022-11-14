@@ -1,0 +1,16 @@
+.intro__subtitle {
+  font-family: 'Metropolis', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #1EE1B3;
+  margin: 0 0 -10px;
+  animation: fadein 0.3s linear 1 forwards;
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .intro__subtitle {
+    font-size: 11px;
+  }
+}

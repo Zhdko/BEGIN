@@ -1,0 +1,15 @@
+.intro__container {
+  display:flex;
+  flex-direction: column;
+  text-align: end;
+  margin: auto 0;
+  max-width: 470px;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 576px) {
+  .intro__container {
+    max-width: 320px;
+    padding-top: 80px;
+  }
+}
