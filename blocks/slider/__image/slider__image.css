@@ -1,0 +1,10 @@
+.slider__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: all 0.3s ease-in-out;
+}
+
+.slider:hover .slider__image {
+  width: 110%;
+}

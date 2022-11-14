@@ -1,0 +1,12 @@
+.slider__wrapper {
+  width: 9999px;
+	height: 532px;
+	position: relative;
+	transition: left 500ms linear;
+}
+
+@media screen and (max-width: 1200px) {
+  .slider__wrapper {
+    height: 371px;
+  }
+}

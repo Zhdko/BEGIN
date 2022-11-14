@@ -1,0 +1,27 @@
+.about__background-title {
+  font-family: 'Metropolis', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 250px;
+  line-height: 250px;
+  color: #252528;
+  opacity: 0.1;
+  position: absolute;
+  top: -120px;
+  left: 0;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .about__background-title {
+    font-size: 128px;
+    left:52px;
+    top:-110px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__background-title {
+    display: none;
+  }
+}

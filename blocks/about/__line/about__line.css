@@ -1,0 +1,26 @@
+.about__line {
+  width: 133px;
+  background-color: #515151;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about__line span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 85px;
+  background-color: #1EE1B3;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .about__line {
+    width: 96px;
+  }
+
+  .about__line span {
+    width: 61px;
+  }
+}

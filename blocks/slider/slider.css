@@ -1,0 +1,13 @@
+.slider {
+  min-width: 425px;
+  width: 425px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .slider {
+    min-width: 300px;
+    width: 300px
+  }
+}

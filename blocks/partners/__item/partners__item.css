@@ -1,0 +1,16 @@
+.partners__item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__item {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .partners__item {
+
+  }
+}

@@ -1,0 +1,14 @@
+.about__paragraph {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.25;
+  margin:0;
+}
+
+@media screen and (max-width: 992px) {
+  .about__paragraph {
+    font-size: 13px;
+  }
+}

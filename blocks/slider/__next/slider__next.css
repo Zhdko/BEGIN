@@ -1,0 +1,14 @@
+.slider__next {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #838383;
+  float: right;
+  transition: all 0.3s linear;
+}
+
+.slider__next:hover {
+  background-color: #252E2C;
+}
+

@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  background-color: #08080C;
+  background-color: rgba(8, 8, 12, 0.95);
   color: #faf8f7;
-  opacity: 0.95;
   position: fixed;
   top: 0;
   transition: background-color 0.2s linear;
+  z-index: 10;
 }

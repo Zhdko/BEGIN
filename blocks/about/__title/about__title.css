@@ -1,0 +1,21 @@
+.about__title {
+  margin: 0 0 8px;
+  font-family: 'Metropolis', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #1EE1B3;
+}
+
+@media screen and (max-width: 992px) {
+  .about__title {
+    font-size: 23px;
+    margin: 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    font-size: 23px;
+  }
+}

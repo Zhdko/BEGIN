@@ -1,0 +1,15 @@
+.slider__previous {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #434343;
+  float: left;
+  transition: all 0.3s linear;
+}
+
+.slider__previous:hover {
+  background-color: #112520;
+}
+
+
