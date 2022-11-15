@@ -1,0 +1,37 @@
+.why-begin__line {
+  width: 245px;
+  background-color: #515151;
+  position: relative;
+  margin-bottom: 115px;
+}
+
+.why-begin__line span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 157px;
+  background-color: #1EE1B3;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .why-begin__line {
+    width: 143px;
+    margin-bottom: 88px;
+  }
+
+  .why-begin__line span {
+    width: 91px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .why-begin__line {
+    width: 126px;
+    margin-bottom: 56px;
+  }
+  .why-begin__line span {
+    width: 80px;
+  }
+}

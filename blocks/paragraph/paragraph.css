@@ -1,4 +1,4 @@
-.about__paragraph {
+.paragraph {
   font-family: 'Proxima Nova', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 992px) {
-  .about__paragraph {
+  .paragraph {
     font-size: 13px;
   }
 }

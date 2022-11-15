@@ -1,0 +1,6 @@
+.why-begin__image {
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  align-self: flex-end;
+}

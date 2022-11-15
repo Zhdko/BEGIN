@@ -56,7 +56,7 @@
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__line/about__line.css);
-@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/about/__paragraphs/about__paragraphs.css);
 @import url(../blocks/btn-link/btn-link.css);
 @import url(../blocks/btn-link/_theme/btn-link_theme_light.css);
@@ -72,4 +72,18 @@
 @import url(../blocks/slider/__previous/slider__previous.css);
 @import url(../blocks/slider/__next/slider__next.css);
 
-/*  */
+/* why begin */
+@import url(../blocks/why-begin/why-begin.css);
+@import url(../blocks/why-begin/_theme/why-begin_theme_light.css);
+@import url(../blocks/why-begin/__text/why-begin__text.css);
+@import url(../blocks/why-begin/__background/why-begin__background.css);
+@import url(../blocks/why-begin/__square/why-begin__square.css);
+@import url(../blocks/why-begin/__image/why-begin__image.css);
+@import url(../blocks/why-begin/__title/why-begin__title.css);
+@import url(../blocks/why-begin/__line/why-begin__line.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__icon/advantages__icon.css);
+@import url(../blocks/advantages/__icon/_theme/advantages__icon_theme_light.css);
+@import url(../blocks/advantages/__text/advantages__text.css);
+@import url(../blocks/advantages/__title/advantages__title.css);

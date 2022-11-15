@@ -1,0 +1,19 @@
+.advantages__item {
+  display: grid;
+  gap: 97px;
+  grid-template-columns: auto 1fr;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+  .advantages__item {
+    gap: 40px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .advantages__item {
+    gap: 30px;
+  }
+}

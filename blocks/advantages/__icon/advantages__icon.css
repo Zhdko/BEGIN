@@ -1,0 +1,20 @@
+.advantages__icon {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+  .advantages__icon {
+    width: 50px;
+    height: 50px;
+  }
+}
