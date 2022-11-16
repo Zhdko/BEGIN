@@ -11,34 +11,37 @@ let toggleThemeLight = document.querySelector('.toggle__icon_theme_light');
 let toggleThemeDark = document.querySelector('.toggle__icon_theme_dark');
 let handle = document.querySelector('.toggle__ball');
 let page = document.querySelector('.page');
+let enhance = document.querySelector('.enhance');
+let useful = document.querySelector('.useful');
+let icon = document.querySelectorAll('.advantages__icon');
 let btnLink = document.querySelector('.btn-link');
-let about = document.querySelector('.about');
-let whyBegin = document.querySelector('.why-begin');
-let enhance = document.querySelector('.enhance')
+
+
 
 
 toggle.addEventListener('click', function() {
   toggleThemeLight.classList.toggle('toggle__icon_active');
   toggleThemeDark.classList.toggle('toggle__icon_active');
   handle.classList.toggle('toggle__ball_theme_light');
+  for (let i = 0; i < icon.length; i++)
 
   if (handle.classList.contains('toggle__ball_theme_light')) {
     menu.classList.add('header__menu_theme_light');
     header.classList.add('header_theme_light');
     page.classList.add('page_theme_light');
     btnLink.classList.add('btn-link_theme_light');
-    about.classList.add('about_theme_light');
-    whyBegin.classList.add('why-begin_theme_light');
     enhance.classList.add('enhance_theme_light');
+    useful.classList.add('useful_theme_light');
+    icon[i].classList.add('advantages__icon_theme_light');
   }
   else {
     menu.classList.remove('header__menu_theme_light');
     header.classList.remove('header_theme_light');
     page.classList.remove('page_theme_light');
     btnLink.classList.remove('btn-link_theme_light');
-    about.classList.remove('about_theme_light');
-    whyBegin.classList.remove('why-begin_theme_light');
     enhance.classList.remove('enhance_theme_light');
+    useful.classList.remove('useful_theme_light');
+    icon[i].classList.remove('advantages__icon_theme_light');
   }
 })
 

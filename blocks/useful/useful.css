@@ -1,0 +1,21 @@
+.useful {
+  padding: 141px 52px 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #01010C;
+  transition: backgroud-color 0.3s linear;
+}
+
+@media screen and (max-width: 992px) {
+  .useful {
+    padding: 95px 52px 103px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .useful {
+    padding: 51px 52px 138px;
+  }
+}

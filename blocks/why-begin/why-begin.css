@@ -1,10 +1,7 @@
 .why-begin {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin: 0 auto;
-  color: #fff;
   padding: 127px 60px 0;
-  max-width: 1920px;
   box-sizing: border-box;
 }
 

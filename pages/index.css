@@ -8,6 +8,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/_theme/page_theme_light.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/main/main.css);
 
 
 /* header */
@@ -47,7 +48,6 @@
 
 /* about */
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/_theme/about_theme_light.css);
 @import url(../blocks/about/__background-title/about__background-title.css);
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__item/partners__item.css);
@@ -74,7 +74,6 @@
 
 /* why begin */
 @import url(../blocks/why-begin/why-begin.css);
-@import url(../blocks/why-begin/_theme/why-begin_theme_light.css);
 @import url(../blocks/why-begin/__text/why-begin__text.css);
 @import url(../blocks/why-begin/__background/why-begin__background.css);
 @import url(../blocks/why-begin/__square/why-begin__square.css);
@@ -96,3 +95,13 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/line/_size/line_size_m.css);
 @import url(../blocks/btn-play/btn-play.css);
+
+/* useful */
+@import url(../blocks/useful/useful.css);
+@import url(../blocks/useful/_theme/useful_theme_light.css);
+@import url(../blocks/title/_size/title_size_s.css);
+@import url(../blocks/useful/__cards/useful__cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__icon/card__icon.css);
