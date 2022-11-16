@@ -15,6 +15,7 @@ let enhance = document.querySelector('.enhance');
 let useful = document.querySelector('.useful');
 let icon = document.querySelectorAll('.advantages__icon');
 let btnLink = document.querySelector('.btn-link');
+let simulation = document.querySelector('.simulation')
 
 
 
@@ -32,6 +33,7 @@ toggle.addEventListener('click', function() {
     btnLink.classList.add('btn-link_theme_light');
     enhance.classList.add('enhance_theme_light');
     useful.classList.add('useful_theme_light');
+    simulation.classList.add('simulation_theme_light');
     icon[i].classList.add('advantages__icon_theme_light');
   }
   else {
@@ -41,6 +43,7 @@ toggle.addEventListener('click', function() {
     btnLink.classList.remove('btn-link_theme_light');
     enhance.classList.remove('enhance_theme_light');
     useful.classList.remove('useful_theme_light');
+    simulation.classList.remove('simulation_theme_light');
     icon[i].classList.remove('advantages__icon_theme_light');
   }
 })

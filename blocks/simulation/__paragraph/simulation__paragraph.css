@@ -1,0 +1,15 @@
+.simulation__paragraph {
+  margin: 0 0 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .simulation__paragraph {
+    margin:0 0 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .simulation__paragraph {
+    margin: 0 0 40px;
+  }
+}

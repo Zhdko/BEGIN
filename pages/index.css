@@ -55,7 +55,7 @@
 @import url(../blocks/about/__content/about__content.css);
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/__line/about__line.css);
+@import url(../blocks/line/_size/line_size_l.css);
 @import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/about/__paragraphs/about__paragraphs.css);
 @import url(../blocks/btn-link/btn-link.css);
@@ -105,3 +105,15 @@
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__icon/card__icon.css);
+
+/* simulation */
+@import url(../blocks/simulation/simulation.css);
+@import url(../blocks/simulation/_theme/simulation_theme_light.css);
+@import url(../blocks/simulation/__container/simulation__container.css);
+@import url(../blocks/simulation/__text/simulation__text.css);
+@import url(../blocks/simulation/__title/simulation__title.css);
+@import url(../blocks/simulation/__paragraph/simulation__paragraph.css);
+@import url(../blocks/simulation/__image/simulation__image.css);
+@import url(../blocks/btn-discover/btn-discover.css);
+@import url(../blocks/btn-discover/__text/btn-discover__text.css);
+@import url(../blocks/btn-discover/__icon/btn-discover__icon.css);

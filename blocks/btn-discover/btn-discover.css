@@ -1,0 +1,17 @@
+.btn-discover {
+  padding: 18px 40px;
+  background-color: #fff;
+  color: #08080C;
+  border-radius: 3px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition:all 0.3s linear;
+  display: flex;
+  align-items: center;
+}
+
+.btn-discover:hover {
+  background-color: #08080C;
+  color: #fff;
+}
+

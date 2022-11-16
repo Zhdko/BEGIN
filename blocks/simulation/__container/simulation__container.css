@@ -1,0 +1,20 @@
+.simulation__container {
+  background-color: #0c0c11;
+  padding: 100px 0 150px 110px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .simulation__container {
+    padding: 238px 20px 68px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .simulation__container {
+    padding: 60px 10px 40px;
+  }
+}

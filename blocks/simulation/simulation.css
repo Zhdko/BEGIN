@@ -1,0 +1,16 @@
+.simulation {
+  padding: 74px 52px 140px;
+  color: #fff;
+}
+
+@media  screen and (max-width: 992px) {
+  .simulation {
+    padding: 48px 52px 165px;
+  }
+}
+
+@media  screen and (max-width: 576px) {
+  .simulation {
+    padding: 32px 22px 66px;
+  }
+}
