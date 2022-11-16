@@ -1,0 +1,16 @@
+.btn-play {
+  width: 75px;
+  height: 75px;
+  border: 2px solid #fff;
+  background-image: url(../../image/why-begin/play.svg);
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s linear;
+}
+
+.btn-play:hover {
+  background-size: 23px;
+  border-color: #1ee1b3;
+  background-image: url(../../image/play-green.svg);
+}

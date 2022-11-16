@@ -1,0 +1,24 @@
+.enhance {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 117px 52px 110px;
+  color: #fff;
+  background-color: #0c0c11;
+  transition: backround-color 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .enhance {
+    padding: 83px 52px 92px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .enhance {
+    padding: 70px 22px;
+  }
+}

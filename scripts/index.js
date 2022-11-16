@@ -14,6 +14,7 @@ let page = document.querySelector('.page');
 let btnLink = document.querySelector('.btn-link');
 let about = document.querySelector('.about');
 let whyBegin = document.querySelector('.why-begin');
+let enhance = document.querySelector('.enhance')
 
 
 toggle.addEventListener('click', function() {
@@ -28,6 +29,7 @@ toggle.addEventListener('click', function() {
     btnLink.classList.add('btn-link_theme_light');
     about.classList.add('about_theme_light');
     whyBegin.classList.add('why-begin_theme_light');
+    enhance.classList.add('enhance_theme_light');
   }
   else {
     menu.classList.remove('header__menu_theme_light');
@@ -36,12 +38,9 @@ toggle.addEventListener('click', function() {
     btnLink.classList.remove('btn-link_theme_light');
     about.classList.remove('about_theme_light');
     whyBegin.classList.remove('why-begin_theme_light');
+    enhance.classList.remove('enhance_theme_light');
   }
 })
-
-for (i = 0; i < icon.length; i++) {
-  icon[i].classList.add('advantages__icon_theme_light');
-}
 
 function Slideshow( element ) {
 	this.el = document.querySelector( element );

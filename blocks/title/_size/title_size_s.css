@@ -1,0 +1,12 @@
+.title_size_s {
+  font-size: 32px;
+  max-width: 720px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .title_size_s {
+    max-width: 100%;
+    font-size: 20px;
+  }
+}
