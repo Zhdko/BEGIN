@@ -27,8 +27,8 @@
 
 ### Построен с
 
-- Семантическая разметка HTML5
-- Пользователские свойства CSS
+- HTML5
+- CSS
 - Flexbox
 - Grid
 - Desctop-first workflow
